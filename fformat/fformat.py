@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from os import walk
 from tabulate import tabulate
 import re
