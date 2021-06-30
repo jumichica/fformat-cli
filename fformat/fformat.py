@@ -45,7 +45,7 @@ if __name__ == "__main__":
     sys.exit(1)
   problem_files = []
   excluded_files = [".gitignore", ".gitmodules", "__init__.py", "LICENSE", "README.md"]
-  excluded_folders = [".git", ".idea"]
+  excluded_folders = [".git", ".idea", "__pycache__"]
   excluded = excluded_folders + excluded_files
   warnings = 0
   # RUN THE MAIN METHOD
