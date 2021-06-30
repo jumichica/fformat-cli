@@ -5,8 +5,13 @@ Command to validate files and folders without special characters different to (_
 wget https://raw.githubusercontent.com/jumichica/fformat-cli/main/fformat/fformat.py
 
 ## Use
-chmod +x fformat.py
-./fformat.py ./
+    chmod +x fformat.py
+    ./fformat.py ./
+
+or
+
+    python fformat.py
+
 
 ## Process
 The script validate folders and files and return ok or error,
