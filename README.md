@@ -1,6 +1,10 @@
 # fformat-cli
 Command to validate files and folders without special characters different to (_, [1-9], -).
 
+## Requirements
+
+    pip install -r requirements.txt
+
 ## Install
 wget https://raw.githubusercontent.com/jumichica/fformat-cli/main/fformat/fformat.py
 
